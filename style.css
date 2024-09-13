@@ -1,0 +1,96 @@
+/* <!-- Styles für Seite 4 --> */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: black;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+h3 {
+  color: lightcoral;
+}
+#p1 {
+  color: white;
+  border: outset;
+  background-color: lightcoral;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 20px;
+}
+#p2 {
+  color: black;
+  background-color: lightgreen;
+  padding: 20px;
+  border-top: 3px solid yellow;
+  border-radius: 3px dotted coral;
+  border-bottom: 3px dashed green;
+  border-left: 3px solid blue;
+  text-align: center;
+}
+#p3 {
+  color: black;
+  border: outset;
+  background-color: lightblue;
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 25px;
+}
+#nav {
+  color: white;
+}
+#ankerbtn:hover {
+  background-color: lightgreen;
+}
+#navigation {
+  background-color: lightcoral;
+  display: block;
+}
+.boxcontainer {
+  background-color: white;
+  padding: 5px;
+}
+#boxcontainer {
+  display: block;
+}
+.box {
+  border: 5px solid;
+  font-size: 2.5em;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+#box1 {
+  background-color: lightgreen;
+}
+#box2 {
+  background-color: lightcoral;
+  display: center;
+}
+#box2:hover {
+  background-color: lightgreen;
+}
+#boxpic1 {
+  height: 150px;
+}
+#bonusseite:hover {
+  background-color: blue;
+}
+#headernav {
+  background-color: lightgray;
+}
+#navigationtop {
+  text-decoration: none;
+}
+#navigationtop:hover {
+  background-color: lightcoral;
+  border-radius: 5px;
+}

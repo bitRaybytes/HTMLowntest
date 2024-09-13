@@ -1,0 +1,147 @@
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Testwebsite</title>
+</head>
+<style>
+    @media (max-width: 500px) {
+        #titlecontainer {
+            align-items: center;
+            width: 300px;
+            height: 100px;
+            font-size: .5rem;
+            background-color: green;
+        }
+
+
+    }
+
+
+
+    .navbar:hover {
+        background-color: black;
+    }
+
+    #navbar {
+        border-radius: 5px;
+    }
+
+    #navbar:hover {
+        background-color: lightgreen;
+    }
+
+    #navbar {
+        background-color: lightcoral;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <a style="font-size: 20px; text-decoration: none;" href="index.html" id="navbar">Seite 1</a>
+        <a style="font-size: 20px; text-decoration: none;" href="page2.html" id="navbar">Seite 2</a>
+        <a style="font-size: 20px; text-decoration: none;" href="page3.html" id="navbar">Seite 3</a>
+        <a style="font-size: 20px; text-decoration: none;" href="page4.html" id="navbar">Seite 4</a>
+        <a style="font-size: 20px; text-decoration: none;" href="page5.html" id="navbar">Seite 5</a>
+    </div>
+    <div id="titlecontainer">
+        <h1>
+            <div style="background-color: lightgreen;">Das ist eine H1 Überschrift!</div>
+        </h1>
+        <h2><span style="background-color: cyan;">Das ist eine H2 Überschrift!</span></h2>
+        <h1 id="title" style="background-color: aqua; margin: 0px;">Das ist eine H1 Überschrift!</h1>
+        <h2 id="title">Das ist eine H2 Überschrift!</h2>
+        <h3 id="title">Das ist eine H3 Überschrift!</h3>
+        <h4 id="title">Das ist eine H4 Überschrift!</h4>
+        <h5 id="title">Das ist eine H5 Überschrift!</h5>
+        <h6 id="title">Das ist eine H6 Überschrift!</h6>
+
+        <hr>
+
+        <p>Das ist ein normaler Text.</p>
+        <p>Das ist ein <b>fetter</b> Text.</p>
+        <p>Das ist ein <i>kursiv</i> Text.</p>
+        <p>Das ist ein <u>unterstrichener</u> Text.</p>
+        <p>Das ist ein <del>durchgestrichener</del> Text.</p>
+        <p>Das ist ein <big>großer</big> Text.</p>
+        <p>Das ist ein <small>kleiner</small> Text.</p>
+        <p>Das ist ein <sub>tiefgestellter</sub> Text.</p>
+        <p>Das ist ein <sup>hochgestellter</sup> Text.</p>
+        <p>Das ist ein <tt>monospaced</tt> Text.</p>
+        <p>Das ist ein <mark style="background-color: lightgreen;">markierter</mark>Text.</p>
+
+        <h3>Listen, Links und Tables usw.</h3>
+        <h4><u>Listen</u></h4>
+        <h5><u style="color: blue;">Ungeordnete Listen</u></h5>
+        <ul>
+            <li>Das ist ein <u span style="color: red">unterstrichener roter</u> Text</li>
+            <li>Das ist ein <mark span style="background-color: lightgreen;">markierte</mark> Text</li>
+            <li>Das ist ein <strong>fetter</strong> Text</li>
+        </ul>
+        <h5> <u style="color: blue;">Geordnete Liste</u></h5>
+        <ol>
+            <li>Das ist ein <i>kursiver</i> Text</li>
+            <li>Das ist ein Text</li>
+        </ol>
+        <h4>Tables</h4>
+        <h5>Beispiel von Tables anhand von Öffnungszeiten:</h5>
+        <table border="1" style="background-color: black;">
+            <tr align="center">
+                <th width="100" style="background-color: lightsalmon; ">Montag</th>
+                <th width="100" style="background-color: aquamarine;">Dienstag</th>
+                <th width="100" style="background-color: aliceblue;">Mittwoch</th>
+                <th width="100" style="background-color: pink;">Donnerstag</th>
+                <th width="100" style="background-color: yellow;">Freitag</th>
+                <th width="100" style="background-color: lightcoral;">Samstag</th>
+                <th width="100" style="background-color: white;">Sonntag</th>
+            </tr>
+            <tr align="center" style="background-color: lightgreen;">
+                <td width="100">8-12</td>
+                <td width="100">8-12</td>
+                <td width="100">8-12</td>
+                <td width="100">8-12</td>
+                <td width="100">8-12</td>
+                <td width="100">8-12</td>
+                <td width="100">geschlossen</td>
+            </tr>
+
+        </table>
+        <h4><u>Links und Buttons</u></h4>
+        <p>Das ist ein einfacher Text und dieser <a href="https://www.google.de">Link</a> führt zu Google</p>
+        <a href="#anker">
+            <button style="font-size: 25px; background-color: lightcoral; border-radius: 25px;">Nach unten</button>
+        </a>
+        <h3><u>Bilder und Videos</u></h3>
+        <h4>Bilder</h4>
+        <img src="resources/lolpic.webp" alt="">
+        <img src="resources/lolpic2.webp" alt="">
+        <h4>Videos</h4>
+        <p style="font-weight: bold;">Nachstehend würde noch ein Video erscheinen. Aufgrund von Autosave und Reload CPU
+            nicht beanspruchen wollen, deshalb auskommentiert im Code.</p>
+
+        <!-- <video src="resources/lolvideo.mp4" muted loop></video> -->
+        <h3>Navigation:</h3>
+        <a href="page2.html" id="anker"><button
+                style="font-size: 20px; border-radius: 25px; margin-top: -10px; margin-bottom: 5px; width: 250px;">weiter
+                zu S2</button></a><br>
+        <a href="page3.html"><button
+                style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">weiter
+                zu S3</button></a><br>
+        <a href="page4.html"><button
+                style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">weiter
+                zu S4</button></a><br>
+        <a href="page5.html"><button
+                style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">Bonusseite
+                Javascript</button></a><br>
+        <a href="#"><button
+                style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">nach
+                oben</button></a><br>
+    </div>
+
+</body>
+
+</html>
+<!-- Hier ist ein Video, welches ich zum üben nutze für dieses Projekt teilweise (aktuell bei Kapitel 10):
+https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=737s -->

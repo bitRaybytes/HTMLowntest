@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine zweite Seite</title>
+</head>
+
+<body>
+    <a style="font-size: 20px;" href="index.html">Seite 1</a>
+    <a style="font-size: 20px;" href="page2.html">Seite 2</a>
+    <a style="font-size: 20px;" href="page3.html">Seite 3</a>
+    <a style="font-size: 20px;" href="page4.html">Seite 4</a>
+    <a style="font-size: 20px;" href="page5.html">Seite 5</a>
+    <h1>Das ist meine zweite Seite</h1>
+    <p>Mit Unterstützung durch dieses <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=737s">Video</a> von BroCode
+        auf Youtube</p>
+    <a href="index.html">
+        <button style="font-size: 25px; background-color: lightcoral; border-radius: 25px;">Zurück</button>
+    </a>
+    <button onclick="clickonButton()" style="font-size: 25px; background-color: lightcoral; border-radius: 25px;">Teste
+        mich
+    </button>
+    <p id="buttonclick"></p>
+    <script>
+        function clickonButton() {
+            document.getElementById("buttonclick").innerHTML = "Ich sagte doch, ist nichts! Außer etwas JavaScript ;)";
+        }
+    </script>
+    <h3>Form</h3>
+    <p><b>wie beispielsweise Kontaktformulare:</b></p>
+    <form action="index.php" method="POST" enctype="multipart/form-data" style="background-color: lightcoral;">
+        <label for="username">Benutzername:</label>
+        <input type="text" id="username" placeholder="Benutzername" minlength="3" maxlength="10" required>
+
+        <br>
+        <label for="password">Passwort:</label>
+        <input type="password" name="Passwort" placeholder="Passwort" id="password" minlength="6" maxlength="18">
+
+        <br>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="E-Mail" id="email" placeholder="E-Mail">
+
+        <br>
+        <label for="phone">Telefon:</label>
+        <input type="phone" placeholder="+49123-4567890" pattern="+49[0-9]{3}-[0-9]{7}">
+
+        <br>
+        <label for="bday">Geburtstag</label>
+        <input type="date" name="Geburtstag:" id="bday">
+
+        <br>
+        <label for="quantity">Anzahl:</label>
+        <input type="number" id="quantity" min="0" max="100" value="100">
+
+        <br>
+        <label for="title">Anrede:</label>
+        <label for="title">Herr</label>
+        <input type="radio" id="herr" value="Herr" name="title">
+        <label for="title">Frau</label>
+        <input type="radio" id="frau" value="Herr" name="title">
+        <label for="title">Divers</label>
+        <input type="radio" id="divers" value="Herr" name="title">
+        <br>
+
+        <label for="payment">Bezahlung:</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">PayPal</option>
+            <option value="geschenkkarte">Geschenkkarte</option>
+        </select>
+        <br>
+
+        <label for="subscribe">Abbonieren:</label>
+        <input type="checkbox" id="subscribe">
+        <br>
+        <label for="comment" id="comment">Nachricht:</label>
+        <textarea name="comment" id="comment" rows="3" cols="25">Ihre Nachricht</textarea>
+        <br>
+        <label for="file">Dokumente:</label>
+        <input type="file" accept="image/png, image/jpeg">
+        <br>
+        <br>
+        <input type="reset" style="width: 150px;">
+        <input type="submit" style="width: 150px;">
+    </form>
+    <br>
+    <h3>Navigation:</h3>
+    <a href="page3.html" id="anker"><button
+            style="font-size: 20px; border-radius: 25px; margin-top: -10px; margin-bottom: 5px; width: 250px;">weiter
+            zu S3</button></a><br>
+    <a href="page4.html"><button
+            style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">weiter
+            zu S4</button></a><br>
+    <a href="index.html"><button
+            style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">zurück zu
+            S1</button></a><br>
+    </a>
+    <a href="page5.html"><button
+            style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">Bonusseite
+            Javascript</button></a><br>
+    <a href="#"><button
+            style="font-size: 15px; border-radius: 25px; margin-top: 5px; margin-bottom: 5px; width: 250px;">nach
+            oben</button></a>
+</body>
+
+</html>

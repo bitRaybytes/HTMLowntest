@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+}
+.footer {
+  background-color: lightcoral;
+  border-radius: 25px;
+}
+#footerbutton {
+  font-size: 20px;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+}
+
+#footerbutton:hover {
+  background-color: lightgreen;
+}
+
+#navbar a{
+  font-size: 20px;
+  text-decoration: none;
+}
+/* a{
+    text-decoration: none;
+} */
+a:hover{
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+#submit{
+    background-color: lightgreen;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+}
+#benutzernamelabel{
+}
